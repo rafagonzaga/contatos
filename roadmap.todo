@@ -25,11 +25,11 @@ Criação de Menu:
     ✔ Verifique se o menu aparece corretamente. @done(21-08-30 10:46)
 
 Criação de Lista de Contatos:
-    ☐ Criar o componente components/ListaDeContatos
-    O conteúdo de lista-de-contatos.component.html deve ser o main de https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
-    ☐ Adicione esse componente ao app.component.html
-    ☐ Dê o estilo desse componente baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css
-    ☐ Verifique se a lista de contatos aparece corretamente.
+    ✔ Criar o componente components/ListaDeContatos @done(21-08-30 11:01)
+    ✔ O conteúdo de lista-de-contatos.component.html deve ser o main de https://github.com/sergiomoura/contatos-html-template/blob/main/home.html @done(21-08-30 11:01)
+    ✔ Adicione esse componente ao app.component.html @done(21-08-30 11:01)
+    ✔ Dê o estilo desse componente baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @done(21-08-30 11:01)
+    ✔ Verifique se a lista de contatos aparece corretamente. @done(21-08-30 11:01)
 
 Criação de Componente contato:
     ☐ Criar componente components/Contato
