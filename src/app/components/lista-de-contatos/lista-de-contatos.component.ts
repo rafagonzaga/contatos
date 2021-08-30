@@ -12,12 +12,12 @@ export class ListaDeContatosComponent implements OnInit {
     {
       nome: "Rafael Gonzaga",
       email: "ralozaga@gmail.com",
-      telefones:['2464-4642']
+      telefones:['2464-4642', '97661-7773', '98245-2536']
     },
     {
       nome: "Mariana Valente",
       email: "mariana@gmail.com",
-      telefones:['6464-2587']
+      telefones:['6464-2587', '97634-8784']
     },
     {
       nome: "Pedro Valente",
