@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Contato } from 'src/app/models/Contato';
+import { ContatoService } from 'src/app/services/contato.service';
 
 @Component({
   selector: 'app-lista-de-contatos',
@@ -8,40 +9,12 @@ import { Contato } from 'src/app/models/Contato';
 })
 export class ListaDeContatosComponent implements OnInit {
 
-  contatos:Contato[] = [
-    {
-      nome: "Rafael Gonzaga",
-      email: "ralozaga@gmail.com",
-      telefones:['2464-4642', '97661-7773', '98245-2536']
-    },
-    {
-      nome: "Mariana Valente",
-      email: "mariana@gmail.com",
-      telefones:['6464-2587', '97634-8784']
-    },
-    {
-      nome: "Pedro Valente",
-      email: "ralozaga@gmail.com",
-      telefones:['2464-4642']
-    },
-    {
-      nome: "Antonio Luiz",
-      email: "antonio@gmail.com",
-      telefones:['7589-9865']
-    },
-    {
-      nome: "Socorro Gonzaga",
-      email: "socorro@gmail.com",
-      telefones:['2464-1234']
-    },
-    {
-      nome: "Valeria Valente",
-      email: "valeria@gmail.com",
-      telefones:['3521-7997']
-    }
-  ]
+  public contatos:Contato[];
+  private cs:ContatoService = new ContatoService();
 
-  constructor() { }
+  constructor() { 
+    this.contatos = this.cs.getContatos();
+  }
 
   ngOnInit(): void {
   }
