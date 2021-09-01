@@ -16,7 +16,7 @@
                     <i (click)="addTelefone()" class="material-icons">add_circle</i>
                 </a>
                 <a *ngIf="i != 0" class='remove'>
-                    <i class="material-icons">remove_circle</i>
+                    <i (click)="removeTelefone(i)" class="material-icons">remove_circle</i>
                 </a>
             </div>
 <!-- 
@@ -29,7 +29,7 @@
                 <a class="remove" href=""><i class="material-icons">remove_circle</i></a>
             </div>
              -->
-            <!-- <pre>{{novoContato|json}}</pre> -->
+            <pre>{{novoContato|json}}</pre>
         </label>
         <div class="controles">
             <button (click)="cancelar()" type="button" class="link">Cancelar</button>
