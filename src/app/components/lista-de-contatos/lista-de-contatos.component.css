@@ -6,7 +6,7 @@ main {
     gap: 10px;
     padding: 0 0 50px 0;
 }
-/* 
+
 main section{
     background-color: rgba(0,0,0,0.4);
     padding: 20px;
@@ -61,4 +61,4 @@ main section > a{
     position: absolute;
     bottom: 20px;
     right: 20px;
-} */
+}
